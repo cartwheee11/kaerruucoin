@@ -6,7 +6,6 @@
     <img class="bigira" src="@/assets/images/bigira.png" alt="">
     <img class="header" src="@/assets/images/header.png" alt="">
   <!-- </div> -->
-  
 </template>
 
 <style class="scoped">

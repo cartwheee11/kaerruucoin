@@ -7,7 +7,7 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
-    host: '127.0.0.1'
+    host: '192.168.0.59'
   },
   plugins: [
     vue(), mkcert()
