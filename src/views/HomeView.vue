@@ -1,4 +1,10 @@
-<script setup>
+<script>
+function f1(arg1) {
+  return 10 + arg1;
+}
+
+const a = f1();
+console.log(navigator.userAgent);
 </script>
 
 <template>
@@ -17,7 +23,7 @@
     }
 
     to {
-      transform: translate(0, 0); 
+      transform: translate(0, 0);
       opacity: 1;
     }
   }
@@ -36,8 +42,7 @@
     width: 80%;
     animation-name: show;
     animation-duration: 1s;
-    
-    
+
   }
 
   .bigira {
@@ -52,5 +57,3 @@
     animation-delay: 0.3s;
   }
 </style>
-
-
