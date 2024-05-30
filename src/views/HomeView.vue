@@ -1,16 +1,20 @@
 <script>
-function f1(arg1) {
-  return 10 + arg1;
-}
 
-const a = f1();
-console.log(navigator.userAgent);
+export default {
+  data() {
+    return {
+      userAgent: navigator.userAgent,
+    };
+  },
+};
+
 </script>
 
 <template>
   <!-- <div class="container"> -->
     <img class="bigira" src="@/assets/images/bigira.png" alt="">
     <img class="header" src="@/assets/images/header.png" alt="">
+    <h1 style="color: white; font-size: 20px ">{{userAgent}}</h1>
   <!-- </div> -->
 </template>
 
